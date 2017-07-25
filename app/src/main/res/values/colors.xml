@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimaryLight">#C8E6C9</color>
+    <color name="colorPrimary">#66BB6A</color>
+    <color name="colorPrimaryDark">#4CAF50</color>
+    <color name="tagGreen">#66BB6A</color>
+    <color name="tagRed">#EB3E3E</color>
+    <color name="colorBackground">#FAFAFA</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="section_header">#FFCCCCCC</color>
+    <color name="MAIN_BORDER_COLOUR">#40C4FF</color>
+</resources>

@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/my_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:elevation="4dp"
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"/>
+
+    <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:orientation="horizontal"-->
+        <!--android:layout_marginTop="20dp"-->
+        <!--android:layout_marginRight="15dp"-->
+        <!--android:layout_marginLeft="15dp">-->
+
+        <!--<TextView-->
+            <!--android:layout_width="0dp"-->
+            <!--android:text="NICKNAME: "-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:gravity="right"-->
+            <!--android:padding="5dp"-->
+            <!--android:layout_weight="1"/>-->
+
+        <!--<EditText-->
+            <!--android:id="@+id/shortname"-->
+            <!--android:layout_width="0dp"-->
+            <!--android:maxLength="6"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_weight="3"/>-->
+
+    <!--</LinearLayout>-->
+
+    <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:orientation="horizontal"-->
+        <!--android:layout_marginTop="15dp"-->
+        <!--android:layout_marginRight="15dp"-->
+        <!--android:layout_marginLeft="15dp">-->
+
+        <!--<TextView-->
+            <!--android:layout_width="0dp"-->
+            <!--android:text="NAME: "-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:gravity="right"-->
+            <!--android:padding="5dp"-->
+            <!--android:layout_weight="1"/>-->
+
+        <!--<EditText-->
+            <!--android:id="@+id/fullname"-->
+            <!--android:layout_width="0dp"-->
+            <!--android:maxLength="20"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_weight="3" />-->
+
+    <!--</LinearLayout>-->
+
+    <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:orientation="horizontal"-->
+        <!--android:layout_marginTop="15dp"-->
+        <!--android:layout_marginRight="15dp"-->
+        <!--android:layout_marginLeft="15dp">-->
+
+        <!--<TextView-->
+            <!--android:layout_width="0dp"-->
+            <!--android:text="EMAIL: "-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:gravity="right"-->
+            <!--android:padding="5dp"-->
+            <!--android:layout_weight="1"/>-->
+
+        <!--<EditText-->
+            <!--android:id="@+id/email"-->
+            <!--android:layout_width="0dp"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_weight="3"-->
+            <!--android:inputType="textEmailAddress" />-->
+
+    <!--</LinearLayout>-->
+
+    <EditText
+        android:id="@+id/shortname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Nickname"
+        android:textColorHint="@color/colorAccent"
+        android:textAlignment="center"
+        android:ems="10"
+        android:maxLength="12"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp"/>
+
+    <EditText
+        android:id="@+id/fullname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Name"
+        android:textColorHint="@color/colorAccent"
+        android:textAlignment="center"
+        android:ems="15"
+        android:maxLength="20"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp"/>
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:textColorHint="@color/colorAccent"
+        android:textAlignment="center"
+        android:ems="15"
+        android:layout_gravity="center"
+        android:inputType="textEmailAddress"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp">
+
+        <!--<TextView-->
+            <!--android:layout_width="0dp"-->
+            <!--android:text="COLOUR: "-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:gravity="right"-->
+            <!--android:padding="5dp"-->
+            <!--android:layout_weight="1"/>-->
+
+        <!--<Spinner-->
+            <!--android:id="@+id/color"-->
+            <!--android:layout_width="0dp"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_weight="2"-->
+            <!--android:spinnerMode="dropdown" />-->
+
+        <Spinner
+            android:id="@+id/color"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:spinnerMode="dropdown" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal|top"
+        android:layout_margin="15dp">
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_add_a_photo_black_48dp"
+            android:onClick="takePicture"
+            android:layout_weight="1" />
+
+        <ImageView
+            android:id="@+id/thumbnail"
+            android:layout_width="0dp"
+            android:layout_height="110dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1" />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_photo_library_black_48dp"
+            android:onClick="getPicture"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CONFIRM"
+        android:textStyle="bold"
+        android:onClick="confirmUser"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="@android:color/white"
+        android:layout_gravity="center_horizontal" />
+
+</LinearLayout>

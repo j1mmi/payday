@@ -1,0 +1,15 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="practise.postcourse.circledraw.MainActivity">
+    <item
+        android:id="@+id/action_back"
+        android:title="@string/action_back"
+        android:icon="@drawable/ic_chevron_left_black_24dp"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_forward"
+        android:title="@string/action_forward"
+        android:icon="@drawable/ic_chevron_right_black_24dp"
+        app:showAsAction="ifRoom" />
+</menu>

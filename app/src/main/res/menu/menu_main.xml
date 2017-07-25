@@ -1,0 +1,21 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="practise.postcourse.circledraw.MainActivity">
+    <item
+        android:id="@+id/action_undoTransaction"
+        android:title="@string/action_undoTransaction"
+        android:icon="@drawable/ic_undo_black_24dp"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_settleUsers"
+        android:title="@string/action_settleUsers"
+        android:icon="@drawable/ic_done_all_black_24dp"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/action_toc"
+        android:title="@string/action_toc"
+        android:icon="@drawable/ic_more_vert_black_24dp"
+        app:showAsAction="always">
+    </item>
+</menu>

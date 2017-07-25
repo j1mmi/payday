@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--<FrameLayout-->
+    <!--xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--xmlns:app="http://schemas.android.com/apk/res-auto"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:elevation="4dp">-->
+
+    <eu.davidea.flipview.FlipView
+        android:id="@+id/flip_horizontal_oval_textview_big"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center_horizontal"
+        android:clickable="true"
+        app:checked="false"
+        app:enableInitialAnimation="true"
+        app:frontLayout="@layout/flipview_front_custom_text"
+        app:rearBackgroundColor="#eb3e3e"
+        app:rearLayout="@layout/flipview_rear_custom"
+        app:rearImage="@drawable/blank"
+        app:rearImageAnimation="@anim/grow_from_start_x_axis" />
+

@@ -1,0 +1,38 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="practise.postcourse.circledraw.MainActivity">
+
+    <item
+        android:id="@+id/action_editAccount"
+        android:title="@string/action_editAccount"
+        android:icon="@drawable/ic_account_box_black_24dp"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/action_deleteUser"
+        android:title="@string/action_deleteUser"
+        android:icon="@drawable/remove_user_24px"
+        app:showAsAction="ifRoom"/>
+
+    <!--<item-->
+        <!--android:id="@+id/action_settleSingleUser"-->
+        <!--android:title="@string/action_settleSingleUser"-->
+        <!--android:icon="@drawable/ic_done_black_24dp"-->
+        <!--app:showAsAction="ifRoom"/>-->
+    <!--<item-->
+        <!--android:id="@+id/action_toc"-->
+        <!--android:title="@string/action_toc"-->
+        <!--android:icon="@drawable/ic_more_vert_black_24dp"-->
+        <!--app:showAsAction="always">-->
+        <!--<menu>-->
+            <!--<item-->
+                <!--android:id="@+id/action_editAccount"-->
+                <!--android:title="@string/action_editAccount"-->
+                <!--android:icon="@drawable/ic_account_box_black_24dp"/>-->
+            <!--<item-->
+                <!--android:id="@+id/action_deleteUser"-->
+                <!--android:title="@string/action_deleteUser"-->
+                <!--android:icon="@drawable/remove_user_24px"/>-->
+        <!--</menu>-->
+    <!--</item>-->
+</menu>
