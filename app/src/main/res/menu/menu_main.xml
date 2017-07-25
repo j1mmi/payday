@@ -6,12 +6,12 @@
         android:id="@+id/action_undoTransaction"
         android:title="@string/action_undoTransaction"
         android:icon="@drawable/ic_undo_black_24dp"
-        app:showAsAction="ifRoom" />
+        app:showAsAction="always" />
     <item
         android:id="@+id/action_settleUsers"
         android:title="@string/action_settleUsers"
         android:icon="@drawable/ic_done_all_black_24dp"
-        app:showAsAction="ifRoom"/>
+        app:showAsAction="always"/>
     <item
         android:id="@+id/action_toc"
         android:title="@string/action_toc"
